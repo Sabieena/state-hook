@@ -7,6 +7,7 @@ import StateArray from './component/StateArray';
 import HookEffect from './component/HookEffect';
 import HookEffectOne from './component/HookEffectOne';
 import HookMouse from './component/HookMouse';
+import CleanUpEffect from './component/CleanUpEffect';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <StateArray /> */}
       {/* <HookEffect /> */}
       {/* <HookEffectOne /> */}
-      <HookMouse />
+      {/* <HookMouse /> */}
+      <CleanUpEffect />
     </div>
   );
 }
