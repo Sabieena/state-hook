@@ -6,6 +6,7 @@ import ObjectHook from './component/ObjectHook';
 import StateArray from './component/StateArray';
 import HookEffect from './component/HookEffect';
 import HookEffectOne from './component/HookEffectOne';
+import HookMouse from './component/HookMouse';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <ObjectHook /> */}
       {/* <StateArray /> */}
       {/* <HookEffect /> */}
-      <HookEffectOne />
+      {/* <HookEffectOne /> */}
+      <HookMouse />
     </div>
   );
 }
