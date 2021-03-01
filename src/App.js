@@ -4,6 +4,7 @@ import HookCounter from './component/HookCounter'
 import Counter from './component/Counter';
 import ObjectHook from './component/ObjectHook';
 import StateArray from './component/StateArray';
+import HookEffect from './component/HookEffect';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <Counter /> */}
       {/* <ObjectHook /> */}
-      <StateArray />
+      {/* <StateArray /> */}
+      <HookEffect />
     </div>
   );
 }
