@@ -13,7 +13,7 @@ function HookMouse() {
     useEffect(() => {
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
-    })
+    }, []) // we can mimic componentDidMount with useEffect by passing empty array as second parameter in useEffect 
     return (
         <div>
             <h1>Hook X - {X}</h1>
