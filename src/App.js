@@ -9,6 +9,7 @@ import HookEffectOne from './component/HookEffectOne';
 import HookMouse from './component/HookMouse';
 import CleanUpEffect from './component/CleanUpEffect';
 import IntervalHookCounter from './component/IntervalHookCounter';
+import DataFetching from './component/DataFetching'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <HookEffectOne /> */}
       {/* <HookMouse /> */}
       {/* <CleanUpEffect /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 }
